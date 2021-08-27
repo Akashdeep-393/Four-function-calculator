@@ -1,0 +1,66 @@
+/*
+     * Name: Akashdeep Bhattacherjee
+     * Date: July 14, 2021
+     * Section: CSE 154 AD
+     *
+     * This is the CSS stylesheet for my calculator HTML page.
+     */
+body {
+  background-color: steelblue;
+}
+
+header {
+  height: 10%;
+}
+
+header, #calculator, h1, h2, textarea, #recent, #answers {
+  margin: 10px auto 10px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+header, #calculator, h2, textarea, #recent, #answers, button {
+  text-align: center;
+}
+
+h1 {
+  padding: 5px 5px 5px 5px;
+  width: 50%;
+}
+
+h1, #calculator, #recent, #answers {
+  border: 10px solid green;
+}
+
+#calculator, #recent, #answers {
+  padding: 2px 2px 2px 2px;
+}
+
+h1, h2, #recent, #answers {
+  color: purple;
+  font-family: "Kalam", sans-serif;
+}
+
+#calculator {
+  height: 210px;
+}
+
+textarea {
+  height: 50px;
+  width: 75%;
+}
+
+button {
+  border-radius: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+#calculator, #recent {
+  width: 15%;
+}
+
+#answers {
+  width: 30%;
+  font-size: 20px;
+}
