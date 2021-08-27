@@ -1,8 +1,4 @@
 /**
- * Name: Akashdeep Bhattacherjee
- * Date: July 14, 2021
- * Section: CSE 154 AD
- *
  * This is the JS to implement the UI for my calculator. It receives the user input,
  * performs the calculation and updates the log of answers.
  */
